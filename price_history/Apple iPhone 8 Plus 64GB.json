@@ -1,226 +1,338 @@
 {
   "Jan 2020": {
     "new": 290.0,
-    "used": null
+    "used": null,
+    "new_change": 0,
+    "used_change": 0
   },
   "Feb 2020": {
     "new": 275.0,
-    "used": null
+    "used": null,
+    "new_change": -15.0,
+    "used_change": 0
   },
   "Mar 2020": {
     "new": 270.0,
-    "used": null
+    "used": null,
+    "new_change": -5.0,
+    "used_change": 0
   },
   "Apr 2020": {
     "new": 280.0,
-    "used": null
+    "used": null,
+    "new_change": 10.0,
+    "used_change": 0
   },
   "May 2020": {
     "new": 294.0,
-    "used": null
+    "used": null,
+    "new_change": 14.0,
+    "used_change": 0
   },
   "Jun 2020": {
     "new": 300.0,
-    "used": null
+    "used": null,
+    "new_change": 6.0,
+    "used_change": 0
   },
   "Jul 2020": {
     "new": 300.0,
-    "used": null
+    "used": null,
+    "new_change": 0.0,
+    "used_change": 0
   },
   "Aug 2020": {
     "new": 300.0,
-    "used": null
+    "used": null,
+    "new_change": 0.0,
+    "used_change": 0
   },
   "Sep 2020": {
     "new": 291.0,
-    "used": null
+    "used": null,
+    "new_change": -9.0,
+    "used_change": 0
   },
   "Oct 2020": {
     "new": 278.0,
-    "used": null
+    "used": null,
+    "new_change": -13.0,
+    "used_change": 0
   },
   "Nov 2020": {
     "new": 263.0,
-    "used": null
+    "used": null,
+    "new_change": -15.0,
+    "used_change": 0
   },
   "Dec 2020": {
     "new": 265.0,
-    "used": null
+    "used": null,
+    "new_change": 2.0,
+    "used_change": 0
   },
   "Jan 2021": {
     "new": 258.0,
-    "used": null
+    "used": null,
+    "new_change": -7.0,
+    "used_change": 0
   },
   "Feb 2021": {
     "new": 242.0,
-    "used": null
+    "used": null,
+    "new_change": -16.0,
+    "used_change": 0
   },
   "Mar 2021": {
     "new": 247.0,
-    "used": null
+    "used": null,
+    "new_change": 5.0,
+    "used_change": 0
   },
   "Apr 2021": {
     "new": 239.0,
-    "used": null
+    "used": null,
+    "new_change": -8.0,
+    "used_change": 0
   },
   "May 2021": {
     "new": 235.0,
-    "used": null
+    "used": null,
+    "new_change": -4.0,
+    "used_change": 0
   },
   "Jun 2021": {
     "new": 235.0,
-    "used": null
+    "used": null,
+    "new_change": 0.0,
+    "used_change": 0
   },
   "Jul 2021": {
     "new": 223.0,
-    "used": null
+    "used": null,
+    "new_change": -12.0,
+    "used_change": 0
   },
   "Aug 2021": {
     "new": 221.0,
-    "used": null
+    "used": null,
+    "new_change": -2.0,
+    "used_change": 0
   },
   "Sep 2021": {
     "new": 220.0,
-    "used": null
+    "used": null,
+    "new_change": -1.0,
+    "used_change": 0
   },
   "Oct 2021": {
     "new": 215.0,
-    "used": null
+    "used": null,
+    "new_change": -5.0,
+    "used_change": 0
   },
   "Nov 2021": {
     "new": 218.0,
-    "used": null
+    "used": null,
+    "new_change": 3.0,
+    "used_change": 0
   },
   "Dec 2021": {
     "new": 216.0,
-    "used": null
+    "used": null,
+    "new_change": -2.0,
+    "used_change": 0
   },
   "Jan 2022": {
     "new": 205.0,
-    "used": null
+    "used": null,
+    "new_change": -11.0,
+    "used_change": 0
   },
   "Feb 2022": {
     "new": 201.0,
-    "used": null
+    "used": null,
+    "new_change": -4.0,
+    "used_change": 0
   },
   "Mar 2022": {
     "new": 193.0,
-    "used": null
+    "used": null,
+    "new_change": -8.0,
+    "used_change": 0
   },
   "Apr 2022": {
     "new": 182.0,
-    "used": null
+    "used": null,
+    "new_change": -11.0,
+    "used_change": 0
   },
   "May 2022": {
     "new": 180.0,
-    "used": 179.0
+    "used": 179.0,
+    "new_change": -2.0,
+    "used_change": 0
   },
   "Jun 2022": {
     "new": null,
-    "used": 170.0
+    "used": 170.0,
+    "new_change": 0,
+    "used_change": -9.0
   },
   "Jul 2022": {
     "new": null,
-    "used": 164.0
+    "used": 164.0,
+    "new_change": 0,
+    "used_change": -6.0
   },
   "Aug 2022": {
     "new": null,
-    "used": 161.0
+    "used": 161.0,
+    "new_change": 0,
+    "used_change": -3.0
   },
   "Sep 2022": {
     "new": null,
-    "used": 162.0
+    "used": 162.0,
+    "new_change": 0,
+    "used_change": 1.0
   },
   "Oct 2022": {
     "new": null,
-    "used": 150.0
+    "used": 150.0,
+    "new_change": 0,
+    "used_change": -12.0
   },
   "Nov 2022": {
     "new": null,
-    "used": 143.0
+    "used": 143.0,
+    "new_change": 0,
+    "used_change": -7.0
   },
   "Dec 2022": {
     "new": null,
-    "used": 143.0
+    "used": 143.0,
+    "new_change": 0,
+    "used_change": 0.0
   },
   "Jan 2023": {
     "new": null,
-    "used": 138.0
+    "used": 138.0,
+    "new_change": 0,
+    "used_change": -5.0
   },
   "Feb 2023": {
     "new": null,
-    "used": 136.0
+    "used": 136.0,
+    "new_change": 0,
+    "used_change": -2.0
   },
   "Mar 2023": {
     "new": null,
-    "used": 135.0
+    "used": 135.0,
+    "new_change": 0,
+    "used_change": -1.0
   },
   "Apr 2023": {
     "new": null,
-    "used": 129.0
+    "used": 129.0,
+    "new_change": 0,
+    "used_change": -6.0
   },
   "May 2023": {
     "new": null,
-    "used": 133.0
+    "used": 133.0,
+    "new_change": 0,
+    "used_change": 4.0
   },
   "Jun 2023": {
     "new": null,
-    "used": 125.0
+    "used": 125.0,
+    "new_change": 0,
+    "used_change": -8.0
   },
   "Jul 2023": {
     "new": null,
-    "used": 117.0
+    "used": 117.0,
+    "new_change": 0,
+    "used_change": -8.0
   },
   "Aug 2023": {
     "new": null,
-    "used": 120.0
+    "used": 120.0,
+    "new_change": 0,
+    "used_change": 3.0
   },
   "Sep 2023": {
     "new": null,
-    "used": 120.0
+    "used": 120.0,
+    "new_change": 0,
+    "used_change": 0.0
   },
   "Oct 2023": {
     "new": null,
-    "used": 112.0
+    "used": 112.0,
+    "new_change": 0,
+    "used_change": -8.0
   },
   "Nov 2023": {
     "new": null,
-    "used": 119.0
+    "used": 119.0,
+    "new_change": 0,
+    "used_change": 7.0
   },
   "Dec 2023": {
     "new": null,
-    "used": 115.0
+    "used": 115.0,
+    "new_change": 0,
+    "used_change": -4.0
   },
   "Jan 2024": {
     "new": null,
-    "used": 103.0
+    "used": 103.0,
+    "new_change": 0,
+    "used_change": -12.0
   },
   "Feb 2024": {
     "new": null,
-    "used": 103.0
+    "used": 103.0,
+    "new_change": 0,
+    "used_change": 0.0
   },
   "Mar 2024": {
     "new": null,
-    "used": 100.0
+    "used": 100.0,
+    "new_change": 0,
+    "used_change": -3.0
   },
   "Apr 2024": {
     "new": null,
-    "used": 100.0
+    "used": 100.0,
+    "new_change": 0,
+    "used_change": 0.0
   },
   "May 2024": {
     "new": null,
-    "used": 98.0
+    "used": 98.0,
+    "new_change": 0,
+    "used_change": -2.0
   },
   "Jun 2024": {
     "new": null,
-    "used": 99.0
+    "used": 99.0,
+    "new_change": 0,
+    "used_change": 1.0
   },
   "Jul 2024": {
     "new": null,
-    "used": 98.0
+    "used": 98.0,
+    "new_change": 0,
+    "used_change": -1.0
   },
   "Aug 2024": {
     "new": null,
-    "used": 99.0
+    "used": 99.0,
+    "new_change": 0,
+    "used_change": 1.0
   }
 }
