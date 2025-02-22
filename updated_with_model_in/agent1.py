@@ -2,7 +2,9 @@ from openai import OpenAI
 import json
 from dotenv import load_dotenv
 import os
+import glob
 
+load_dotenv()
 API_KEYS = os.getenv("OPENAI_API_KEY")
 
 SYSTEM_PROMPT = """You are an API that searches the entire Internet and returns valid JSON arrays containing both Apple events and major world events. DO NOT HALLUCINATE. Return data in this exact format:
@@ -58,7 +60,7 @@ Format as valid JSON only. Start with {{ and end with }}."""
         ]
         
         completion = client.chat.completions.create(
-            model="gpt-4o",  # Changed from gpt-4o to gpt-4
+            model="gpt-4",
             messages=messages,
             temperature=0,
             max_tokens=7800
@@ -86,8 +88,58 @@ Format as valid JSON only. Start with {{ and end with }}."""
         print(f"API Error: {e}")
         return {"error": str(e)}
 
+def merge_price_data(events_data, iphone_price_files):
+    """
+    Merge iPhone price data with events data based on matching dates.
+    
+    Args:
+        events_data (dict): Dictionary containing event data
+        iphone_price_files (list): List of iPhone price data JSON files
+    
+    Returns:
+        dict: Merged data with events and prices
+    """
+    # Load all iPhone price data
+    price_data = {}
+    for price_file in iphone_price_files:
+        with open(price_file, 'r') as f:
+            data = json.load(f)
+            # Use filename as identifier (e.g., "Apple iPhone 11 128GB")
+            model = os.path.splitext(os.path.basename(price_file))[0]
+            price_data[model] = data
+
+    # Create a merged version of events with price data
+    merged_events = []
+    for event in events_data["annotated_events"]:
+        event_date = event["event_date"]
+        
+        # Create a copy of the event
+        merged_event = event.copy()
+        
+        # Add price data for each iPhone model if available for this date
+        price_info = {}
+        for model, prices in price_data.items():
+            if event_date in prices:
+                model_data = prices[event_date]
+                price_info[model] = {
+                    "new": model_data.get("new"),
+                    "used": model_data.get("used"),
+                    "new_change": model_data.get("new_change"),
+                    "used_change": model_data.get("used_change")
+                }
+        
+        if price_info:
+            merged_event["price_data"] = price_info
+        
+        merged_events.append(merged_event)
+
+    return {
+        "reasoning": events_data["reasoning"],
+        "annotated_events": merged_events
+    }
+
 def collect_events():
-    """Collect all events in smaller time chunks."""
+    """Collect all events and merge with price data."""
     time_periods = [
         "2005-2006",
         "2007-2008",
@@ -117,19 +169,27 @@ def collect_events():
     # Sort events by date
     all_events.sort(key=lambda x: x.get("event_date", "9999-99"))
     
-    final_result = {
+    initial_result = {
         "reasoning": "Events collected in time periods and merged chronologically, including both Apple and major world events",
         "annotated_events": all_events
     }
     
+    # Find all iPhone price JSON files
+    iphone_price_files = glob.glob("Apple iPhone*.json")
+    
+    # Merge price data with events
+    final_result = merge_price_data(initial_result, iphone_price_files)
+    
     # Save to file
-    with open("apple_and_world_events.json", "w", encoding="utf-8") as f:
+    output_file = "apple_world_events_with_prices.json"
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(final_result, f, indent=2)
     
+    print(f"\nSaved merged data to {output_file}")
     return final_result
 
 def print_summary(result):
-    """Print a summary of collected events."""
+    """Print a summary of collected events with price data."""
     if "annotated_events" in result:
         events = result["annotated_events"]
         print(f"\nCollected {len(events)} total events")
@@ -137,17 +197,24 @@ def print_summary(result):
         # Count events by category
         apple_events = sum(1 for e in events if e.get("category") == "Apple")
         world_events = sum(1 for e in events if e.get("category") == "World")
+        events_with_prices = sum(1 for e in events if "price_data" in e)
+        
         print(f"\nApple Events: {apple_events}")
         print(f"World Events: {world_events}")
+        print(f"Events with price data: {events_with_prices}")
         
         if events:
             print("\nFirst 3 events:")
             for event in events[:3]:
                 print(f"{event['event_date']}: {event['event_name']} ({event['category']})")
+                if "price_data" in event:
+                    print("  Price data available for models:", ", ".join(event["price_data"].keys()))
             
             print("\nLast 3 events:")
             for event in events[-3:]:
                 print(f"{event['event_date']}: {event['event_name']} ({event['category']})")
+                if "price_data" in event:
+                    print("  Price data available for models:", ", ".join(event["price_data"].keys()))
 
 if __name__ == "__main__":
     print("Starting event collection...")
