@@ -1,7 +1,9 @@
 from openai import OpenAI
 import json
+from dotenv import load_dotenv
+import os
 
-API_KEYS = "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"
+API_KEYS = os.getenv("OPENAI_API_KEY")
 
 SYSTEM_PROMPT = """You are an API that searches the entire Internet and returns valid JSON arrays containing both Apple events and major world events. DO NOT HALLUCINATE. Return data in this exact format:
 
