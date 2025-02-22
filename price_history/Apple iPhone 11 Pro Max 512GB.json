@@ -1,0 +1,226 @@
+{
+  "Jan 2020": {
+    "new": 900.0,
+    "used": null
+  },
+  "Feb 2020": {
+    "new": 1050.0,
+    "used": null
+  },
+  "Mar 2020": {
+    "new": 1101.0,
+    "used": null
+  },
+  "Apr 2020": {
+    "new": 1075.0,
+    "used": null
+  },
+  "May 2020": {
+    "new": 1100.0,
+    "used": null
+  },
+  "Jun 2020": {
+    "new": 1037.0,
+    "used": null
+  },
+  "Jul 2020": {
+    "new": 1025.0,
+    "used": null
+  },
+  "Aug 2020": {
+    "new": 1070.0,
+    "used": null
+  },
+  "Sep 2020": {
+    "new": 950.0,
+    "used": null
+  },
+  "Oct 2020": {
+    "new": 887.0,
+    "used": null
+  },
+  "Nov 2020": {
+    "new": 854.0,
+    "used": null
+  },
+  "Dec 2020": {
+    "new": 836.0,
+    "used": null
+  },
+  "Jan 2021": {
+    "new": 868.0,
+    "used": null
+  },
+  "Feb 2021": {
+    "new": 830.0,
+    "used": null
+  },
+  "Mar 2021": {
+    "new": 849.0,
+    "used": null
+  },
+  "Apr 2021": {
+    "new": 815.0,
+    "used": null
+  },
+  "May 2021": {
+    "new": 770.0,
+    "used": null
+  },
+  "Jun 2021": {
+    "new": 809.0,
+    "used": null
+  },
+  "Jul 2021": {
+    "new": 813.0,
+    "used": null
+  },
+  "Aug 2021": {
+    "new": 750.0,
+    "used": null
+  },
+  "Sep 2021": {
+    "new": 769.0,
+    "used": null
+  },
+  "Oct 2021": {
+    "new": 685.0,
+    "used": null
+  },
+  "Nov 2021": {
+    "new": 684.0,
+    "used": null
+  },
+  "Dec 2021": {
+    "new": 675.0,
+    "used": null
+  },
+  "Jan 2022": {
+    "new": 652.0,
+    "used": null
+  },
+  "Feb 2022": {
+    "new": 620.0,
+    "used": null
+  },
+  "Mar 2022": {
+    "new": 609.0,
+    "used": null
+  },
+  "Apr 2022": {
+    "new": 600.0,
+    "used": null
+  },
+  "May 2022": {
+    "new": 577.0,
+    "used": 585.0
+  },
+  "Jun 2022": {
+    "new": null,
+    "used": 587.0
+  },
+  "Jul 2022": {
+    "new": null,
+    "used": 606.0
+  },
+  "Aug 2022": {
+    "new": null,
+    "used": 572.0
+  },
+  "Sep 2022": {
+    "new": null,
+    "used": 560.0
+  },
+  "Oct 2022": {
+    "new": null,
+    "used": 497.0
+  },
+  "Nov 2022": {
+    "new": null,
+    "used": 482.0
+  },
+  "Dec 2022": {
+    "new": null,
+    "used": 461.0
+  },
+  "Jan 2023": {
+    "new": null,
+    "used": 428.0
+  },
+  "Feb 2023": {
+    "new": null,
+    "used": 425.0
+  },
+  "Mar 2023": {
+    "new": null,
+    "used": 430.0
+  },
+  "Apr 2023": {
+    "new": null,
+    "used": 427.0
+  },
+  "May 2023": {
+    "new": null,
+    "used": 407.0
+  },
+  "Jun 2023": {
+    "new": null,
+    "used": 405.0
+  },
+  "Jul 2023": {
+    "new": null,
+    "used": 426.0
+  },
+  "Aug 2023": {
+    "new": null,
+    "used": 419.0
+  },
+  "Sep 2023": {
+    "new": null,
+    "used": 400.0
+  },
+  "Oct 2023": {
+    "new": null,
+    "used": 400.0
+  },
+  "Nov 2023": {
+    "new": null,
+    "used": 398.0
+  },
+  "Dec 2023": {
+    "new": null,
+    "used": 370.0
+  },
+  "Jan 2024": {
+    "new": null,
+    "used": 350.0
+  },
+  "Feb 2024": {
+    "new": null,
+    "used": 330.0
+  },
+  "Mar 2024": {
+    "new": null,
+    "used": 340.0
+  },
+  "Apr 2024": {
+    "new": null,
+    "used": 330.0
+  },
+  "May 2024": {
+    "new": null,
+    "used": 304.0
+  },
+  "Jun 2024": {
+    "new": null,
+    "used": 300.0
+  },
+  "Jul 2024": {
+    "new": null,
+    "used": 286.0
+  },
+  "Aug 2024": {
+    "new": null,
+    "used": 295.0
+  }
+}
