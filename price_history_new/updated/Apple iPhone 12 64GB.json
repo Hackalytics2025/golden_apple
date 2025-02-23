@@ -1,0 +1,284 @@
+{
+    "2020-10": {
+        "new": 821.0,
+        "used": 780.0,
+        "new_change": 0,
+        "used_change": 0
+    },
+    "2020-11": {
+        "new": 800.0,
+        "used": 707.0,
+        "new_change": -21.0,
+        "used_change": -73.0
+    },
+    "2020-12": {
+        "new": 770.0,
+        "used": 735.0,
+        "new_change": -30.0,
+        "used_change": 28.0
+    },
+    "2021-01": {
+        "new": 775.0,
+        "used": 720.0,
+        "new_change": 5.0,
+        "used_change": -15.0
+    },
+    "2021-02": {
+        "new": 780.0,
+        "used": 690.0,
+        "new_change": 5.0,
+        "used_change": -30.0
+    },
+    "2021-03": {
+        "new": 770.0,
+        "used": 707.0,
+        "new_change": -10.0,
+        "used_change": 17.0
+    },
+    "2021-04": {
+        "new": 775.0,
+        "used": 675.0,
+        "new_change": 5.0,
+        "used_change": -32.0
+    },
+    "2021-05": {
+        "new": 750.0,
+        "used": 682.0,
+        "new_change": -25.0,
+        "used_change": 7.0
+    },
+    "2021-06": {
+        "new": 735.0,
+        "used": 650.0,
+        "new_change": -15.0,
+        "used_change": -32.0
+    },
+    "2021-07": {
+        "new": 729.0,
+        "used": 615.0,
+        "new_change": -6.0,
+        "used_change": -35.0
+    },
+    "2021-08": {
+        "new": 699.0,
+        "used": 599.0,
+        "new_change": -30.0,
+        "used_change": -16.0
+    },
+    "2021-09": {
+        "new": 687.0,
+        "used": 568.0,
+        "new_change": -12.0,
+        "used_change": -31.0
+    },
+    "2021-10": {
+        "new": 664.0,
+        "used": 519.0,
+        "new_change": -23.0,
+        "used_change": -49.0
+    },
+    "2021-11": {
+        "new": 645.0,
+        "used": 530.0,
+        "new_change": -19.0,
+        "used_change": 11.0
+    },
+    "2021-12": {
+        "new": 608.0,
+        "used": 511.0,
+        "new_change": -37.0,
+        "used_change": -19.0
+    },
+    "2022-01": {
+        "new": 575.0,
+        "used": 487.0,
+        "new_change": -33.0,
+        "used_change": -24.0
+    },
+    "2022-02": {
+        "new": 550.0,
+        "used": 453.0,
+        "new_change": -25.0,
+        "used_change": -34.0
+    },
+    "2022-03": {
+        "new": 530.0,
+        "used": 430.0,
+        "new_change": -20.0,
+        "used_change": -23.0
+    },
+    "2022-04": {
+        "new": 520.0,
+        "used": 420.0,
+        "new_change": -10.0,
+        "used_change": -10.0
+    },
+    "2022-05": {
+        "new": 550.0,
+        "used": 410.0,
+        "new_change": 30.0,
+        "used_change": -10.0
+    },
+    "2022-06": {
+        "new": 513.0,
+        "used": 400.0,
+        "new_change": -37.0,
+        "used_change": -10.0
+    },
+    "2022-07": {
+        "new": 480.0,
+        "used": 400.0,
+        "new_change": -33.0,
+        "used_change": 0.0
+    },
+    "2022-08": {
+        "new": 497.0,
+        "used": 375.0,
+        "new_change": 17.0,
+        "used_change": -25.0
+    },
+    "2022-09": {
+        "new": 466.0,
+        "used": 372.0,
+        "new_change": -31.0,
+        "used_change": -3.0
+    },
+    "2022-10": {
+        "new": 439.0,
+        "used": 361.0,
+        "new_change": -27.0,
+        "used_change": -11.0
+    },
+    "2022-11": {
+        "new": 463.0,
+        "used": 344.0,
+        "new_change": 24.0,
+        "used_change": -17.0
+    },
+    "2022-12": {
+        "new": 440.0,
+        "used": 320.0,
+        "new_change": -23.0,
+        "used_change": -24.0
+    },
+    "2023-01": {
+        "new": 440.0,
+        "used": 310.0,
+        "new_change": 0.0,
+        "used_change": -10.0
+    },
+    "2023-02": {
+        "new": 416.0,
+        "used": 310.0,
+        "new_change": -24.0,
+        "used_change": 0.0
+    },
+    "2023-03": {
+        "new": 400.0,
+        "used": 310.0,
+        "new_change": -16.0,
+        "used_change": 0.0
+    },
+    "2023-04": {
+        "new": 380.0,
+        "used": 300.0,
+        "new_change": -20.0,
+        "used_change": -10.0
+    },
+    "2023-05": {
+        "new": 355.0,
+        "used": 305.0,
+        "new_change": -25.0,
+        "used_change": 5.0
+    },
+    "2023-06": {
+        "new": 370.0,
+        "used": 300.0,
+        "new_change": 15.0,
+        "used_change": -5.0
+    },
+    "2023-07": {
+        "new": 375.0,
+        "used": 299.0,
+        "new_change": 5.0,
+        "used_change": -1.0
+    },
+    "2023-08": {
+        "new": 390.0,
+        "used": 297.0,
+        "new_change": 15.0,
+        "used_change": -2.0
+    },
+    "2023-09": {
+        "new": 380.0,
+        "used": 290.0,
+        "new_change": -10.0,
+        "used_change": -7.0
+    },
+    "2023-10": {
+        "new": 384.0,
+        "used": 275.0,
+        "new_change": 4.0,
+        "used_change": -15.0
+    },
+    "2023-11": {
+        "new": 356.0,
+        "used": 260.0,
+        "new_change": -28.0,
+        "used_change": -15.0
+    },
+    "2023-12": {
+        "new": 352.0,
+        "used": 248.0,
+        "new_change": -4.0,
+        "used_change": -12.0
+    },
+    "2024-01": {
+        "new": 360.0,
+        "used": 238.0,
+        "new_change": 8.0,
+        "used_change": -10.0
+    },
+    "2024-02": {
+        "new": 300.0,
+        "used": 223.0,
+        "new_change": -60.0,
+        "used_change": -15.0
+    },
+    "2024-03": {
+        "new": 328.0,
+        "used": 220.0,
+        "new_change": 28.0,
+        "used_change": -3.0
+    },
+    "2024-04": {
+        "new": 310.0,
+        "used": 218.0,
+        "new_change": -18.0,
+        "used_change": -2.0
+    },
+    "2024-05": {
+        "new": 300.0,
+        "used": 200.0,
+        "new_change": -10.0,
+        "used_change": -18.0
+    },
+    "2024-06": {
+        "new": 330.0,
+        "used": 206.0,
+        "new_change": 30.0,
+        "used_change": 6.0
+    },
+    "2024-07": {
+        "new": 300.0,
+        "used": 205.0,
+        "new_change": -30.0,
+        "used_change": -1.0
+    },
+    "2024-08": {
+        "new": 300.0,
+        "used": 210.0,
+        "new_change": 0.0,
+        "used_change": 5.0
+    }
+}
