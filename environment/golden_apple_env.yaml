@@ -18,3 +18,4 @@ dependencies:
     - pip:
         - tensorflow>=2.14.0
         - openai
+        - prophet
