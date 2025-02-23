@@ -2,6 +2,9 @@ from openai import OpenAI
 import json
 from dotenv import load_dotenv
 import os
+from datetime import datetime
+from collections import defaultdict
+from statistics import mean
 
 load_dotenv()
 API_KEYS = os.getenv("OPENAI_API_KEY")
@@ -13,11 +16,59 @@ SYSTEM_PROMPT = """You are an API that returns ONLY valid JSON containing events
         {
             "event_name": "Event name (specific model for product launches)",
             "event_date": "YYYY-MM-DD",
-            "event_type": "Product Launch/Software Release/Policy Change/Market Action/Major Positive World Event/Major Negative World Event/Minor Positive World Event/Minor Negative World Event",
+            "event_type": "iPhone Product Launch/iPad Product Launch/MacBook Product Launch/Other Product Launch/Software Release/Policy Change/Market Action/Major Positive World Event/Major Negative World Event/Minor Positive World Event/Minor Negative World Event",
             "category": "Apple/World"
         }
     ]
 }"""
+
+def calculate_intervals(events):
+    """Calculate average intervals between events for each category and type."""
+    # Sort events by date
+    sorted_events = sorted(events, key=lambda x: x.get("event_date", "9999-99-99"))
+    
+    # Initialize dictionaries to store dates for each category and type
+    category_dates = defaultdict(list)
+    type_dates = defaultdict(list)
+    
+    # Collect dates for each category and type
+    for event in sorted_events:
+        try:
+            date = datetime.strptime(event["event_date"], "%Y-%m-%d")
+            category_dates[event["category"]].append(date)
+            type_dates[event["event_type"]].append(date)
+        except (ValueError, KeyError):
+            continue
+    
+    # Calculate average intervals
+    category_intervals = {}
+    type_intervals = {}
+    
+    def calculate_avg_days(dates):
+        if len(dates) < 2:
+            return None
+        intervals = []
+        for i in range(1, len(dates)):
+            delta = dates[i] - dates[i-1]
+            intervals.append(delta.days)
+        return round(mean(intervals), 2) if intervals else None
+    
+    # Calculate for categories
+    for category, dates in category_dates.items():
+        avg_interval = calculate_avg_days(dates)
+        if avg_interval is not None:
+            category_intervals[category] = avg_interval
+    
+    # Calculate for types
+    for event_type, dates in type_dates.items():
+        avg_interval = calculate_avg_days(dates)
+        if avg_interval is not None:
+            type_intervals[event_type] = avg_interval
+    
+    return {
+        "category_intervals": category_intervals,
+        "type_intervals": type_intervals
+    }
 
 def generate_events(year_range: str) -> dict:
     """Generate Apple and world events for a specific year range."""
@@ -130,10 +181,13 @@ def collect_events():
     
     # Sort events by date
     all_events.sort(key=lambda x: x.get("event_date", "9999-99-99"))
+
+    intervals = calculate_intervals(all_events)
     
     final_result = {
         "reasoning": "Events collected in time periods and merged chronologically",
-        "annotated_events": all_events
+        "annotated_events": all_events,
+        "average_intervals": intervals
     }
     
     # Save to file
@@ -166,6 +220,15 @@ def print_summary(result):
         print("\nEvents by Type:")
         for event_type, count in event_types.items():
             print(f"{event_type}: {count}")
+        
+        if "average_intervals" in result:
+            print("\nAverage Intervals (days):")
+            print("\nBy Category:")
+            for category, interval in result["average_intervals"]["category_intervals"].items():
+                print(f"{category}: {interval} days")
+            print("\nBy Event Type:")
+            for event_type, interval in result["average_intervals"]["type_intervals"].items():
+                print(f"{event_type}: {interval} days")
         
         if events:
             print("\nFirst 3 events:")

@@ -4,31 +4,25 @@
     {
       "event_name": "iPad Pro 11\" Launch",
       "event_date": "2019-03-18",
-      "event_type": "Product Launch",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "iPad Pro 12.9\" Launch",
       "event_date": "2019-03-18",
-      "event_type": "Product Launch",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "MacBook Pro 14\" Launch",
-      "event_date": "2019-05-21",
-      "event_type": "Product Launch",
-      "category": "Apple"
-    },
-    {
-      "event_name": "Hong Kong Protests",
-      "event_date": "2019-06-09",
-      "event_type": "Major Negative World Event",
+      "event_name": "First Black Hole Image Captured",
+      "event_date": "2019-04-10",
+      "event_type": "Major Positive World Event",
       "category": "World"
     },
     {
       "event_name": "Apple Card Launch",
       "event_date": "2019-08-20",
-      "event_type": "Product Launch",
+      "event_type": "Market Action",
       "category": "Apple"
     },
     {
@@ -38,39 +32,33 @@
       "category": "World"
     },
     {
-      "event_name": "Apple Privacy Policy Update",
-      "event_date": "2019-08-29",
-      "event_type": "Policy Change",
-      "category": "Apple"
-    },
-    {
       "event_name": "iPhone 11 Launch",
       "event_date": "2019-09-10",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "iPhone 11 Pro Launch",
       "event_date": "2019-09-10",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "iPhone 11 Pro Max Launch",
       "event_date": "2019-09-10",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Watch Series 5 40mm Launch",
+      "event_name": "Apple Watch Series 5 40mm Launch",
       "event_date": "2019-09-10",
-      "event_type": "Product Launch",
+      "event_type": "Other Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Watch Series 5 44mm Launch",
+      "event_name": "Apple Watch Series 5 44mm Launch",
       "event_date": "2019-09-10",
-      "event_type": "Product Launch",
+      "event_type": "Other Product Launch",
       "category": "Apple"
     },
     {
@@ -80,67 +68,91 @@
       "category": "Apple"
     },
     {
-      "event_name": "MacBook Pro 16\" Launch",
-      "event_date": "2019-11-13",
-      "event_type": "Product Launch",
+      "event_name": "Apple Privacy Policy Update",
+      "event_date": "2019-10-07",
+      "event_type": "Policy Change",
       "category": "Apple"
     },
     {
-      "event_name": "COVID-19 declared a pandemic by WHO",
+      "event_name": "MacBook Pro 16\" Launch",
+      "event_date": "2019-11-13",
+      "event_type": "MacBook Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "COVID-19 Declared a Pandemic by WHO",
       "event_date": "2020-03-11",
       "event_type": "Major Negative World Event",
       "category": "World"
     },
     {
-      "event_name": "iPad Pro 11\" (2nd generation)",
-      "event_date": "2020-03-18",
-      "event_type": "Product Launch",
+      "event_name": "iPad Pro 11\" Launch",
+      "event_date": "2020-03-25",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "iPad Pro 12.9\" (4th generation)",
-      "event_date": "2020-03-18",
-      "event_type": "Product Launch",
+      "event_name": "iPad Pro 12.9\" Launch",
+      "event_date": "2020-03-25",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "iPhone SE (2nd generation)",
+      "event_name": "iPhone SE (2nd generation) Launch",
       "event_date": "2020-04-15",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "MacBook Pro 13\"",
+      "event_name": "MacBook Pro 13\" Launch",
       "event_date": "2020-05-04",
-      "event_type": "Product Launch",
+      "event_type": "MacBook Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Apple's Racial Equity and Justice Initiative",
-      "event_date": "2020-06-11",
-      "event_type": "Corporate Event",
-      "category": "Apple"
-    },
-    {
-      "event_name": "Apple Watch Series 6 40mm",
-      "event_date": "2020-09-15",
-      "event_type": "Product Launch",
-      "category": "Apple"
-    },
-    {
-      "event_name": "Apple Watch Series 6 44mm",
-      "event_date": "2020-09-15",
-      "event_type": "Product Launch",
-      "category": "Apple"
-    },
-    {
-      "event_name": "iOS 14",
+      "event_name": "iOS 14 Release",
       "event_date": "2020-09-16",
       "event_type": "Software Release",
       "category": "Apple"
     },
     {
-      "event_name": "Apple's new privacy policy",
+      "event_name": "Watch Series 6 40mm Launch",
+      "event_date": "2020-09-18",
+      "event_type": "Other Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "Watch Series 6 44mm Launch",
+      "event_date": "2020-09-18",
+      "event_type": "Other Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "iPhone 12 Launch",
+      "event_date": "2020-10-23",
+      "event_type": "iPhone Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "iPhone 12 Pro Launch",
+      "event_date": "2020-10-23",
+      "event_type": "iPhone Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "iPhone 12 Mini Launch",
+      "event_date": "2020-11-13",
+      "event_type": "iPhone Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "iPhone 12 Pro Max Launch",
+      "event_date": "2020-11-13",
+      "event_type": "iPhone Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "Apple's Privacy Policy Update",
       "event_date": "2020-12-14",
       "event_type": "Policy Change",
       "category": "Apple"
@@ -154,19 +166,19 @@
     {
       "event_name": "iPad Pro 11\" Launch",
       "event_date": "2021-04-20",
-      "event_type": "Product Launch",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "iPad Pro 12.9\" Launch",
       "event_date": "2021-04-20",
-      "event_type": "Product Launch",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Apple's New Privacy Policy",
-      "event_date": "2021-04-26",
-      "event_type": "Policy Change",
+      "event_name": "Apple's Spring Loaded Event",
+      "event_date": "2021-04-20",
+      "event_type": "Corporate Event",
       "category": "Apple"
     },
     {
@@ -176,33 +188,39 @@
       "category": "World"
     },
     {
+      "event_name": "Apple Privacy Policy Update",
+      "event_date": "2021-08-16",
+      "event_type": "Policy Change",
+      "category": "Apple"
+    },
+    {
       "event_name": "iPhone 13 Launch",
       "event_date": "2021-09-14",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "iPhone 13 Pro Launch",
       "event_date": "2021-09-14",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "iPhone 13 Pro Max Launch",
       "event_date": "2021-09-14",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Apple Watch Series 7 41mm Launch",
+      "event_name": "Watch Series 7 41mm Launch",
       "event_date": "2021-09-14",
-      "event_type": "Product Launch",
+      "event_type": "Other Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Apple Watch Series 7 45mm Launch",
+      "event_name": "Watch Series 7 45mm Launch",
       "event_date": "2021-09-14",
-      "event_type": "Product Launch",
+      "event_type": "Other Product Launch",
       "category": "Apple"
     },
     {
@@ -214,128 +232,163 @@
     {
       "event_name": "MacBook Pro 14\" Launch",
       "event_date": "2021-10-18",
-      "event_type": "Product Launch",
+      "event_type": "MacBook Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "MacBook Pro 16\" Launch",
       "event_date": "2021-10-18",
-      "event_type": "Product Launch",
+      "event_type": "MacBook Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "macOS Monterey Release",
-      "event_date": "2021-10-25",
-      "event_type": "Software Release",
-      "category": "Apple"
-    },
-    {
-      "event_name": "Apple Privacy Policy Update",
-      "event_date": "2022-01-01",
-      "event_type": "Policy Change",
-      "category": "Apple"
-    },
-    {
-      "event_name": "Global Pandemic Continuation",
-      "event_date": "2022-01-01",
+      "event_name": "Russia-Ukraine Conflict Escalation",
+      "event_date": "2022-02-24",
       "event_type": "Major Negative World Event",
       "category": "World"
     },
     {
-      "event_name": "Apple Annual Shareholder Meeting",
-      "event_date": "2022-02-25",
+      "event_name": "Apple's Annual Shareholder Meeting",
+      "event_date": "2022-03-01",
       "event_type": "Corporate Event",
       "category": "Apple"
     },
     {
-      "event_name": "iPad Pro 11\" Launch",
-      "event_date": "2022-03-18",
-      "event_type": "Product Launch",
+      "event_name": "iPad Pro 12.9\" Launch",
+      "event_date": "2022-04-20",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "iPhone 14 Launch",
-      "event_date": "2022-09-01",
-      "event_type": "Product Launch",
+      "event_name": "Apple Privacy Policy Update",
+      "event_date": "2022-05-01",
+      "event_type": "Policy Change",
       "category": "Apple"
     },
     {
-      "event_name": "Watch Series 7 41mm Launch",
+      "event_name": "iPhone 13 Launch",
       "event_date": "2022-09-14",
-      "event_type": "Product Launch",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "iOS 16 Release",
+      "event_name": "Apple Watch Series 7 45mm Launch",
+      "event_date": "2022-09-14",
+      "event_type": "Other Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "iOS 15 Release",
       "event_date": "2022-09-20",
       "event_type": "Software Release",
       "category": "Apple"
     },
     {
-      "event_name": "MacBook Pro 14\" Launch",
+      "event_name": "MacBook Pro 16\" Launch",
       "event_date": "2022-10-18",
-      "event_type": "Product Launch",
+      "event_type": "MacBook Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Global Climate Summit",
-      "event_date": "2022-11-01",
-      "event_type": "Major Positive World Event",
-      "category": "World"
+      "event_name": "Apple Privacy Policy Update",
+      "event_date": "2024-01-01",
+      "event_type": "Policy Change",
+      "category": "Apple"
     },
     {
       "event_name": "Apple's Annual Shareholder Meeting",
-      "event_date": "2024-02-28",
+      "event_date": "2024-02-01",
       "event_type": "Corporate Event",
       "category": "Apple"
     },
     {
       "event_name": "iPad Pro 11\" Launch",
       "event_date": "2024-03-18",
-      "event_type": "Product Launch",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Apple Privacy Policy Update",
-      "event_date": "2024-05-01",
-      "event_type": "Policy Change",
+      "event_name": "iPad Pro 12.9\" Launch",
+      "event_date": "2024-03-18",
+      "event_type": "iPad Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "2024 Summer Olympics",
+      "event_name": "Olympic Games 2024",
       "event_date": "2024-07-26",
       "event_type": "Major Positive World Event",
       "category": "World"
     },
     {
       "event_name": "iPhone 14 Launch",
-      "event_date": "2024-09-20",
-      "event_type": "Product Launch",
+      "event_date": "2024-09-10",
+      "event_type": "iPhone Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Watch Series 8 41mm Launch",
-      "event_date": "2024-09-20",
-      "event_type": "Product Launch",
+      "event_name": "iPhone 14 Pro Launch",
+      "event_date": "2024-09-10",
+      "event_type": "iPhone Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "iPhone 14 Pro Max Launch",
+      "event_date": "2024-09-10",
+      "event_type": "iPhone Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "Watch Series 7 41mm Launch",
+      "event_date": "2024-09-14",
+      "event_type": "Other Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "Watch Series 7 45mm Launch",
+      "event_date": "2024-09-14",
+      "event_type": "Other Product Launch",
       "category": "Apple"
     },
     {
       "event_name": "iOS 18 Release",
-      "event_date": "2024-09-20",
+      "event_date": "2024-09-16",
       "event_type": "Software Release",
       "category": "Apple"
     },
     {
       "event_name": "MacBook Pro 14\" Launch",
-      "event_date": "2024-10-27",
-      "event_type": "Product Launch",
+      "event_date": "2024-10-18",
+      "event_type": "MacBook Product Launch",
       "category": "Apple"
     },
     {
-      "event_name": "Global Economic Recession",
-      "event_date": "2024-11-01",
-      "event_type": "Major Negative World Event",
+      "event_name": "MacBook Pro 16\" Launch",
+      "event_date": "2024-10-18",
+      "event_type": "MacBook Product Launch",
+      "category": "Apple"
+    },
+    {
+      "event_name": "Presidential Election 2024",
+      "event_date": "2024-11-05",
+      "event_type": "Major World Event",
       "category": "World"
     }
-  ]
+  ],
+  "average_intervals": {
+    "category_intervals": {
+      "Apple": 38.51,
+      "World": 290.86
+    },
+    "type_intervals": {
+      "iPad Product Launch": 228.38,
+      "Major Positive World Event": 967,
+      "Major Negative World Event": 306,
+      "iPhone Product Launch": 130.5,
+      "Other Product Launch": 228.88,
+      "Software Release": 456,
+      "Policy Change": 386.75,
+      "MacBook Product Launch": 300.17,
+      "Corporate Event": 508.5
+    }
+  }
 }
